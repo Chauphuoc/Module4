@@ -9,12 +9,19 @@
 </head>
 <body>
 <h1>Ứng dụng chuyển đổi tiền tệ</h1>
+
+<h1>Email Validate</h1>
+<h3 style="color:red">${message}</h3>
+
 <form action="/usd" method="post">
     <label>Rate</label>
-    <input type="text" name="rate" placeholder="Rate" value="22000">
+    <input type="text" name="rate" placeholder="Rate" value="${rate}">
     <label>USD</label>
-    <input type="text" name="usd" placeholder="USD" value="0">
+    <input type="text" name="usd" placeholder="USD" value="${usd}">
+    <label>Email</label>
+    <input type="text" name="email" value="${email}">
     <input type="submit" value="Convert">
+    <input type="text" value="${result}">
 </form>
 
 </body>

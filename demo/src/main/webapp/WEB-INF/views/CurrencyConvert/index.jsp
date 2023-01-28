@@ -11,11 +11,12 @@
 <h1>Ứng dụng chuyển đổi tiền tệ</h1>
 <form action="/usd" method="post">
     <label>Rate</label>
-    <input type="text" name="rate" placeholder="Rate" value="${rate}">
+    <input type="text" name="rate" placeholder="Rate" value="22000">
     <label>USD</label>
-    <input type="text" name="usd" placeholder="USD" value="${usd}">
+    <input type="text" name="usd" placeholder="USD" value="0">
+    <label>Email</label>
+    <input type="text" name="email">
     <input type="submit" value="Convert">
-    <input type="text" value="${result}">
 </form>
 
 </body>
